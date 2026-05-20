@@ -1,6 +1,16 @@
 # SIGN
 
-SIGN is a PyTorch project for cross-view geo-localization on University-1652 and SUES-200. It trains and evaluates a DINOv2/timm-based model for satellite-to-drone and drone-to-satellite image retrieval.
+This repository contains the official PyTorch implementation of **SIGN: Saliency-Aware Integrated Global-Local Network for Cross-View Geo-Localization**.
+
+- Paper: [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11242995)
+- Project page: [https://ziqianmo.github.io/sign.github.io/](https://ziqianmo.github.io/sign.github.io/)
+- Venue: IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2025
+
+SIGN is designed for cross-view geo-localization and performs image retrieval between satellite and drone views. This codebase supports training and evaluation on University-1652 and SUES-200.
+
+## Framework
+
+![SIGN framework](imgs/sign.png)
 
 ## Project Structure
 
@@ -138,3 +148,18 @@ Training creates a timestamped output directory under `model_path`, containing:
 ## Notes
 
 - Pretrained timm/DINOv2 weights may be downloaded automatically on first use.
+
+## Citation
+
+If you find this project useful, please cite:
+
+```bibtex
+@inproceedings{mo2025sign,
+  title={SIGN: Saliency-Aware Integrated Global-Local Network for Cross-View Geo-Localization},
+  author={Mo, Ziqian and Sun, Yuxi and Xu, Meng and Jia, Sen},
+  booktitle={2025 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
+  pages={6296--6300},
+  year={2025},
+  doi={10.1109/IGARSS55030.2025.11242995}
+}
+```
