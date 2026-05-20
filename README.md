@@ -1,10 +1,10 @@
-# SIGN
+# SIGN: Saliency-Aware Integrated Global-Local Network for Cross-View Geo-Localization
+
+[![Paper](https://img.shields.io/badge/Paper-IGARSS%202025-blue)](https://ieeexplore.ieee.org/abstract/document/11242995)
+[![Project](https://img.shields.io/badge/Project-Page-green)](https://ziqianmo.github.io/sign.github.io/)
+[![Venue](https://img.shields.io/badge/Venue-IGARSS%202025-orange)](https://2025.ieeeigarss.org/)
 
 This repository contains the official PyTorch implementation of **SIGN: Saliency-Aware Integrated Global-Local Network for Cross-View Geo-Localization**.
-
-- Paper: [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/11242995)
-- Project page: [https://ziqianmo.github.io/sign.github.io/](https://ziqianmo.github.io/sign.github.io/)
-- Venue: IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 2025
 
 SIGN is designed for cross-view geo-localization and performs image retrieval between satellite and drone views. This codebase supports training and evaluation on University-1652 and SUES-200.
 
